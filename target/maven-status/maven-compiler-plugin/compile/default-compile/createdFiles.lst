@@ -1,0 +1,13 @@
+com\example\demo\ShainRepositoryImpl.class
+com\example\demo\ShainServiceImpl.class
+com\example\demo\GroupRepository.class
+com\example\demo\NoDiApplication.class
+com\example\demo\GroupForm.class
+com\example\demo\GroupServiceImpl.class
+com\example\demo\GroupController.class
+com\example\demo\ShainForm.class
+com\example\demo\GroupRepositoryImpl.class
+com\example\demo\ShainRepository.class
+com\example\demo\ShainController.class
+com\example\demo\ShainService.class
+com\example\demo\GroupService.class
