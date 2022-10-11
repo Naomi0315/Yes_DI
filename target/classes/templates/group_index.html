@@ -1,0 +1,17 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>入力画面</title>
+</head>
+<body>
+
+	<h1>YesDIパターン</h1>
+		<form method="POST" th:action="@{output_2}" th:object="${groupForm}">
+			<p>グループNoを入れてください(5桁の半角数字)</p>
+			<input type="text" th:field="${groupForm.number}">
+			<p style="color:red;" th:errors="${groupForm.number}" class="error">グループNoを入れてください </p>
+		<input type="submit" value="送信">
+		</form>
+
+</body>
+</html>
