@@ -20,6 +20,11 @@
 			<junit.version>4.12</junit.version>
 			<easymock.version>3.4</easymock.version>
 		<!--追加変更終了-->
+		<!--追加変更-->
+			<!--JaCoCo Properties-->
+			<jacoco-maven.version>3.3.2</jacoco-maven.version>
+			<jacoco.include.package>**/*</jacoco.include.package>
+		<!--追加変更終了-->
 	</properties>
 	<dependencies>
 		<!--追加変更-->
@@ -52,6 +57,22 @@
 
 	<build>
 		<plugins>
+			<!--追加変更-->
+			<!--Build Configuration for JaCoCo-->
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>${jacoco-maven.version}</version>
+				<executions>
+					<execution>
+						<id>default-prepare-agent</id>
+						<goals>
+							<goal>prepare-agent</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>	
+			<!--追加変更終了-->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
