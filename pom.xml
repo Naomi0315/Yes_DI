@@ -22,7 +22,7 @@
 		<!--追加変更終了-->
 		<!--追加変更-->
 			<!--JaCoCo Properties-->
-			<jacoco-maven.version>3.3.2</jacoco-maven.version>
+			<jacoco-maven.version>0.7.9</jacoco-maven.version>
 			<jacoco.include.package>**/*</jacoco.include.package>
 		<!--追加変更終了-->
 	</properties>
