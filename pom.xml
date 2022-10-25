@@ -67,7 +67,7 @@
 		<plugins>
 			<!--追加変更-->
 			<!--Build Configuration for JaCoCo-->
-			<!-- <plugin>
+			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
 				<version>${jacoco-maven.version}</version>
@@ -79,7 +79,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>	 -->
+			</plugin>	
 			<!--追加変更終了-->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
